@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+}
+
+.cell-container{
+  display:grid;
+  grid-template-columns:repeat(3,auto);
+  width: 235px;
+  margin: auto;
+  border: 2px solid;
+}
+
+.cell{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  cursor: pointer;
+  line-height: 75px;
+  font-family: 'Permanent Marker',cursive;
+  font-size: larger;
+}
+
+button{
+  cursor: pointer;
+  width: 65px;
+  height: 25px;
+  margin-top: 15px;
+}
